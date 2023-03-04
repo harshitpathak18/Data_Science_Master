@@ -1,0 +1,13 @@
+* yield  #generator
+
+* iter() #iterator
+
+* next() 
+
+* lambda operators:expression
+
+* map(function,iterator)    # itertor can be list,tuple etc  return mapped values
+
+* reduce(function,iterator) # return single value, normally used for applying cummulatively operations
+
+* filter(function,iterator) # return only a filtered list of elements that satisfy a condition
