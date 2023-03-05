@@ -11,3 +11,31 @@
 * reduce(function,iterator) # return single value, normally used for applying cummulatively operations
 
 * filter(function,iterator) # return only a filtered list of elements that satisfy a condition
+
+* To create private method or variable use "__" in starting example: __variable or __method()
+
+* Absctract class: use @abc.abstractclassmethod
+
+                import abc
+
+                class skill:
+                    @abc.abstractclassmethod
+                    def student_details(self):
+                        pass
+                        
+
+* Decorators: it is used when we want to provide decoration on particular function for example- welcome and thanks message for every funtion
+
+            def deco(function):
+                def inner_deco():
+                    print("Welcome")
+                    function()
+                    print("Thanks")
+                return inner_deco
+
+            @deco
+            def function():
+                print("Welcome To Data Science Master Course")
+
+            function()
+            
