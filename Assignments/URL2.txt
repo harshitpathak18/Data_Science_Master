@@ -1,0 +1,1 @@
+The writelines() method writes the items of a list to the file
